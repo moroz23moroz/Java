@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class WeekChet5 {
     public static void main(String[] args) {
-        System.out.println("Введите температуру на улице");
+        System.out.println("Введите целое число");
 
         Scanner inputInt = new Scanner(System.in);
         int n = inputInt.nextInt();
