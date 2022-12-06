@@ -3,7 +3,7 @@ public class Week6 {
         int i = 1;
         while (i <= 512) {
             System.out.println(i);
-            i = i*2;
+            i = i * 2;
         }
     }
 }

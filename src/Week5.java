@@ -7,15 +7,11 @@ public class Week5 {
         Scanner inputInt = new Scanner(System.in);
         int a = inputInt.nextInt();
 
-        if (a <0 ) {
+        if (a < 0) {
             System.out.println("Сейчас очень холодно");
-        }
-
-        else if (a == 0 || a <= 16) {
+        } else if (a == 0 || a <= 16) {
             System.out.println("Сейчас прохладно");
-        }
-
-        else {
+        } else {
             System.out.println("Отличный летний денек");
         }
 

@@ -1,8 +1,4 @@
-import java.util.Scanner;
-
 public class Week5Day {
-    enum Days {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY}
-
     public static void main(String[] args) {
         Days i = Days.SUNDAY;
 
@@ -20,4 +16,6 @@ public class Week5Day {
                 break;
         }
     }
+
+    enum Days {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY}
 }

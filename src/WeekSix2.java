@@ -5,7 +5,7 @@ public class WeekSix2 {
             if (i == 5) {
                 i++;
                 continue;
-            } else if (i == 25){
+            } else if (i == 25) {
                 i++;
                 continue;
             } else if (i == 49) {

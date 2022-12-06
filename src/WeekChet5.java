@@ -8,7 +8,7 @@ public class WeekChet5 {
         int n = inputInt.nextInt();
         int x = n %= 2;
 
-        String result  = x == 0 ? "Вы ввели четное число" : "Вы ввели нечетное число";
+        String result = x == 0 ? "Вы ввели четное число" : "Вы ввели нечетное число";
         System.out.println(result);
-        }
     }
+}
