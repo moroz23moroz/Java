@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="447e13ca-57df-4421-943f-ebc7fb4c51f9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/WeekEight1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeekEight2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeekEight3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WeekTenResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Weekten1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exapleLesson9/exampleLesson9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022,_17_00_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022__17_00__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +47,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/moroz2387/Java/homework&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WeekEight2">
-    <configuration name="WeekEight1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeekEight1" />
-      <module name="homework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WeekTenResources">
     <configuration name="WeekEight2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WeekEight2" />
       <module name="homework" />
@@ -67,15 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekSeven2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeekSeven2" />
+    <configuration name="WeekNine1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeekNine1" />
       <module name="homework" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekSeven3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeekSeven3" />
+    <configuration name="WeekTenResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeekTenResources" />
+      <module name="homework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Weekten1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Weekten1" />
       <module name="homework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeekTenResources" />
+        <item itemvalue="Application.Weekten1" />
+        <item itemvalue="Application.WeekNine1" />
         <item itemvalue="Application.WeekEight2" />
         <item itemvalue="Application.WeekEight3" />
-        <item itemvalue="Application.WeekEight1" />
-        <item itemvalue="Application.WeekSeven3" />
-        <item itemvalue="Application.WeekSeven2" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670297031306</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1670304346684</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670304346684</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

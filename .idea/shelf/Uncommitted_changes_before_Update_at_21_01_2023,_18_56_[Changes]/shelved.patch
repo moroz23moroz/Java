@@ -1,0 +1,365 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022,_17_00_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022,_17_00_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022,_17_00_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022,_17_00_[Changes]/shelved.patch	(revision 15d1caa43b150b5d7993845d1119521cd4e4bbe8)
++++ /dev/null	(revision 15d1caa43b150b5d7993845d1119521cd4e4bbe8)
+@@ -1,151 +0,0 @@
+-Index: src/WeekChet5.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import java.util.Scanner;\n\npublic class WeekChet5 {\n    public static void main(String[] args) {\n        System.out.println(\"Введите температуру на улице\");\n\n        Scanner inputInt = new Scanner(System.in);\n        int n = inputInt.nextInt();\n        int x = n %= 2;\n\n        String result  = x == 0 ? \"Вы ввели четное число\" : \"Вы ввели нечетное число\";\n        System.out.println(result);\n        }\n    }\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/WeekChet5.java b/src/WeekChet5.java
+---- a/src/WeekChet5.java	(revision 89559774cad68c031e90635dbaba1233b17ddf8a)
+-+++ b/src/WeekChet5.java	(date 1669791325186)
+-@@ -2,7 +2,7 @@
+- 
+- public class WeekChet5 {
+-     public static void main(String[] args) {
+--        System.out.println("Введите температуру на улице");
+-+        System.out.println("Введите целое число");
+- 
+-         Scanner inputInt = new Scanner(System.in);
+-         int n = inputInt.nextInt();
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"447e13ca-57df-4421-943f-ebc7fb4c51f9\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2IFtvJTColWhIGEJCNaehRNdmMv\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"447e13ca-57df-4421-943f-ebc7fb4c51f9\" name=\"Changes\" comment=\"\" />\n      <created>1669789388606</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1669789388606</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 89559774cad68c031e90635dbaba1233b17ddf8a)
+-+++ b/.idea/workspace.xml	(date 1669791562141)
+-@@ -1,15 +1,25 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-+  <component name="AutoImportSettings">
+-+    <option name="autoReloadType" value="SELECTIVE" />
+-+  </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="447e13ca-57df-4421-943f-ebc7fb4c51f9" name="Changes" comment="" />
+-+    <list default="true" id="447e13ca-57df-4421-943f-ebc7fb4c51f9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/WeekChet5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeekChet5.java" afterDir="false" />
+-+    </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-     <option name="LAST_RESOLUTION" value="IGNORE" />
+-   </component>
+-   <component name="Git.Settings">
+-+    <option name="PUSH_AUTO_UPDATE" value="true" />
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-   </component>
+-+  <component name="MarkdownSettingsMigration">
+-+    <option name="stateVersion" value="1" />
+-+  </component>
+-   <component name="ProjectId" id="2IFtvJTColWhIGEJCNaehRNdmMv" />
+-   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-   <component name="ProjectViewState">
+-@@ -19,9 +29,32 @@
+-   <component name="PropertiesComponent"><![CDATA[{
+-   "keyToString": {
+-     "RunOnceActivity.OpenProjectViewOnStart": "true",
+--    "RunOnceActivity.ShowReadmeOnStart": "true"
+-+    "RunOnceActivity.ShowReadmeOnStart": "true",
+-+    "last_opened_file_path": "/Users/moroz2387/Java/homework"
+-   }
+- }]]></component>
+-+  <component name="RunManager" selected="Application.WeekChet5">
+-+    <configuration name="Week5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-+      <option name="MAIN_CLASS_NAME" value="Week5" />
+-+      <module name="homework" />
+-+      <method v="2">
+-+        <option name="Make" enabled="true" />
+-+      </method>
+-+    </configuration>
+-+    <configuration name="WeekChet5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-+      <option name="MAIN_CLASS_NAME" value="WeekChet5" />
+-+      <module name="homework" />
+-+      <method v="2">
+-+        <option name="Make" enabled="true" />
+-+      </method>
+-+    </configuration>
+-+    <recent_temporary>
+-+      <list>
+-+        <item itemvalue="Application.WeekChet5" />
+-+        <item itemvalue="Application.Week5" />
+-+      </list>
+-+    </recent_temporary>
+-+  </component>
+-   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+-@@ -31,6 +64,49 @@
+-       <option name="presentableId" value="Default" />
+-       <updated>1669789388606</updated>
+-     </task>
+-+    <task id="LOCAL-00001" summary="first">
+-+      <created>1669790460536</created>
+-+      <option name="number" value="00001" />
+-+      <option name="presentableId" value="LOCAL-00001" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1669790460536</updated>
+-+    </task>
+-+    <task id="LOCAL-00002" summary="first">
+-+      <created>1669790575998</created>
+-+      <option name="number" value="00002" />
+-+      <option name="presentableId" value="LOCAL-00002" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1669790575999</updated>
+-+    </task>
+-+    <task id="LOCAL-00003" summary="first">
+-+      <created>1669790767344</created>
+-+      <option name="number" value="00003" />
+-+      <option name="presentableId" value="LOCAL-00003" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1669790767344</updated>
+-+    </task>
+-+    <task id="LOCAL-00004" summary="first">
+-+      <created>1669791346011</created>
+-+      <option name="number" value="00004" />
+-+      <option name="presentableId" value="LOCAL-00004" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1669791346011</updated>
+-+    </task>
+-+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'">
+-+      <created>1669791505536</created>
+-+      <option name="number" value="00005" />
+-+      <option name="presentableId" value="LOCAL-00005" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1669791505536</updated>
+-+    </task>
+-+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/master'">
+-+      <created>1669791546933</created>
+-+      <option name="number" value="00006" />
+-+      <option name="presentableId" value="LOCAL-00006" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1669791546933</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="7" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -44,4 +120,9 @@
+-       </map>
+-     </option>
+-   </component>
+-+  <component name="VcsManagerConfiguration">
+-+    <MESSAGE value="first" />
+-+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+-+  </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022__17_00__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022__17_00__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022__17_00__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022__17_00__Changes_.xml	(revision 15d1caa43b150b5d7993845d1119521cd4e4bbe8)
++++ /dev/null	(revision 15d1caa43b150b5d7993845d1119521cd4e4bbe8)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_30_11_2022,_17_00_[Changes]" date="1669791647078" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022,_17_00_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 30.11.2022, 17:00 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: src/exapleLesson9/exampleLesson9.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/exapleLesson9/exampleLesson9.java b/src/exapleLesson9/exampleLesson9.java
+new file mode 100644
+--- /dev/null	(date 1674291340812)
++++ b/src/exapleLesson9/exampleLesson9.java	(date 1674291340812)
+@@ -0,0 +1,7 @@
++package exapleLesson9;
++
++public class exampleLesson9 {
++    public static void main(String args[]) {
++
++    }
++}
+Index: src/Weekten1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Weekten1.java b/src/Weekten1.java
+new file mode 100644
+--- /dev/null	(date 1671422819761)
++++ b/src/Weekten1.java	(date 1671422819761)
+@@ -0,0 +1,32 @@
++import java.io.FileWriter;
++import java.io.IOException;
++import java.io.InputStreamReader;
++
++public class Weekten1 {
++    public static void main(String[] args) throws IOException{
++        InputStreamReader inputStreamReader = null;
++        FileWriter fileWriter = null;
++        String s = "";
++        try {
++            inputStreamReader = new InputStreamReader(System.in);
++            fileWriter = new FileWriter("text.txt");
++            System.out.println("Введите строку в консоль");
++            int inChar = inputStreamReader.read();
++            while (inputStreamReader.ready()) {
++                s = s + (char) inChar;
++                inChar = inputStreamReader.read();
++            }
++            fileWriter.write(s);
++        } catch (IOException e) {
++            System.err.println(e.getMessage());
++        } finally {
++            if (inputStreamReader != null) {
++                inputStreamReader.close();
++            }
++            if (fileWriter != null) {
++                fileWriter.close();
++            }
++        }
++    }
++}
++
+Index: src/WeekTenResources.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/WeekTenResources.java b/src/WeekTenResources.java
+new file mode 100644
+--- /dev/null	(date 1671424420246)
++++ b/src/WeekTenResources.java	(date 1671424420246)
+@@ -0,0 +1,21 @@
++import java.io.FileWriter;
++import java.io.IOException;
++import java.io.InputStreamReader;
++
++public class WeekTenResources {
++    public static void main(String[] args) {
++        String s = "";
++        try(InputStreamReader inputStreamReader = new InputStreamReader(System.in);
++            FileWriter fileWriter = new FileWriter("text.txt")) {
++            System.out.println("Введите строку в консоль");
++            int inChar = inputStreamReader.read();
++            while (inputStreamReader.ready()) {
++                s = s + (char) inChar;
++                inChar = inputStreamReader.read();
++            }
++            fileWriter.write(s);
++        } catch (IOException e) {
++            System.err.println(e.getMessage());
++        }
++        }
++    }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"447e13ca-57df-4421-943f-ebc7fb4c51f9\" name=\"Changes\" comment=\"Merge remote-tracking branch 'origin/master'\">\n      <change afterPath=\"$PROJECT_DIR$/src/WeekEight1.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/WeekEight2.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/WeekEight3.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2IFtvJTColWhIGEJCNaehRNdmMv\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/moroz2387/Java/homework&quot;\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"Application.WeekEight2\">\n    <configuration name=\"WeekEight1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"WeekEight1\" />\n      <module name=\"homework\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"WeekEight2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"WeekEight2\" />\n      <module name=\"homework\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"WeekEight3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"WeekEight3\" />\n      <module name=\"homework\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"WeekSeven2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"WeekSeven2\" />\n      <module name=\"homework\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"WeekSeven3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"WeekSeven3\" />\n      <module name=\"homework\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.WeekEight2\" />\n        <item itemvalue=\"Application.WeekEight3\" />\n        <item itemvalue=\"Application.WeekEight1\" />\n        <item itemvalue=\"Application.WeekSeven3\" />\n        <item itemvalue=\"Application.WeekSeven2\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"447e13ca-57df-4421-943f-ebc7fb4c51f9\" name=\"Changes\" comment=\"\" />\n      <created>1669789388606</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1669789388606</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"first\">\n      <created>1669790460536</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669790460536</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"first\">\n      <created>1669790575998</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669790575999</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"first\">\n      <created>1669790767344</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669790767344</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"first\">\n      <created>1669791346011</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669791346011</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Merge remote-tracking branch 'origin/master'\">\n      <created>1669791505536</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669791505536</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Merge remote-tracking branch 'origin/master'\">\n      <created>1669791546933</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669791546933</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Merge remote-tracking branch 'origin/master'\">\n      <created>1669791639849</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669791639849</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Merge remote-tracking branch 'origin/master'\">\n      <created>1670297031306</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1670297031306</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"9\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"first\" />\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/master'\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge remote-tracking branch 'origin/master'\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 15d1caa43b150b5d7993845d1119521cd4e4bbe8)
++++ b/.idea/workspace.xml	(date 1674198754123)
+@@ -5,9 +5,11 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="447e13ca-57df-4421-943f-ebc7fb4c51f9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+-      <change afterPath="$PROJECT_DIR$/src/WeekEight1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/WeekEight2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/WeekEight3.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/WeekTenResources.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Weekten1.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/exapleLesson9/exampleLesson9.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022,_17_00_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2022__17_00__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -45,37 +47,37 @@
+     &quot;last_opened_file_path&quot;: &quot;/Users/moroz2387/Java/homework&quot;
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.WeekEight2">
+-    <configuration name="WeekEight1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="WeekEight1" />
++  <component name="RunManager" selected="Application.WeekTenResources">
++    <configuration name="WeekEight2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="WeekEight2" />
+       <module name="homework" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="WeekEight2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="WeekEight2" />
++    <configuration name="WeekEight3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="WeekEight3" />
+       <module name="homework" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="WeekEight3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="WeekEight3" />
++    <configuration name="WeekNine1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="WeekNine1" />
+       <module name="homework" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="WeekSeven2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="WeekSeven2" />
++    <configuration name="WeekTenResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="WeekTenResources" />
+       <module name="homework" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="WeekSeven3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="WeekSeven3" />
++    <configuration name="Weekten1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Weekten1" />
+       <module name="homework" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -83,11 +85,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.WeekTenResources" />
++        <item itemvalue="Application.Weekten1" />
++        <item itemvalue="Application.WeekNine1" />
+         <item itemvalue="Application.WeekEight2" />
+         <item itemvalue="Application.WeekEight3" />
+-        <item itemvalue="Application.WeekEight1" />
+-        <item itemvalue="Application.WeekSeven3" />
+-        <item itemvalue="Application.WeekSeven2" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -156,7 +158,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670297031306</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'">
++      <created>1670304346684</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1670304346684</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
